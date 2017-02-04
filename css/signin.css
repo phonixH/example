@@ -1,0 +1,231 @@
+/*passport-cover*/
+.passport-page {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1150px;
+}
+.passport-cover{
+	float: left;
+	margin: 107px 0;
+	width: 575px;
+} 
+.cover-content{
+	padding: 50px 0;
+	width: 100%;
+	height: 318px;
+	border-right: 1px solid #dfdfdf; 
+}
+.cover-img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 252px;
+	height: 190px; 
+}
+/*content*/
+.content{
+	float: left;
+	margin-top: 107px;
+	padding-left: 85px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.passport-page .content {
+	float: left;
+	margin-top: 107px;
+	padding-left: 85px;
+}
+.login-ul>li{
+	margin-bottom: 25px;
+	width: 272px;
+	position: relative;
+}
+.login-ul .title{
+	font-size: 20px;
+	font-weight: 400;
+}
+.login-ul i{
+	font-style: normal;
+	color: #b9b9b9;
+	cursor: pointer;
+}
+
+.country-code .iconfont{
+	font-size: 12px;
+}
+.country-list{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 1;
+	padding: 0 10px;
+	border: 1px solid #000;
+	border-radius:5px;
+	background: #fff; 
+	display: none;
+}
+.country-list li{
+	height: 20px;
+	color: #000;
+	line-height: 20px;
+}
+.login-page .switch {
+	width: 100%;
+	height: 27px;
+	background-image: url(../images/sprite.passport.png);
+	background-position: -162px 0;
+	border-radius: 13px;
+	font-size: 14px;
+}
+.login-page .switch .left {
+	width: 146px;
+	height: 27px;
+	text-align: center;
+	line-height: 27px;
+	border-radius: 13px;
+	position: absolute;
+	left: 0;
+	cursor: pointer;
+}
+.login-page .switch .right {
+	width: 146px;
+	height: 27px;
+	text-align: center;
+	line-height: 27px;
+	border-radius: 13px;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+.login-page .switch .selected {
+	background-image: url(../images/sprite.passport.png);
+	background-position: -162px -29px;
+	color: #fff;
+}
+.passport-page .input {
+	width: 268px;
+	height: 43px;
+	border: 1px solid #dbdbdb;
+	color: #9a9a9a;
+	color: rgba(0,0,0,.5);
+	text-indent: 10px;
+	font-size: 16px;
+	line-height: 1.2;
+	line-height: 43px\9;
+}
+.passport-page .err-tip {
+	position: absolute;
+	top: 8px;
+	left: 285px;
+	padding: 6px 0;
+	color: red;
+	white-space: nowrap;
+	font-size: 14px;
+}
+.passport-page .err-tip i {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	width: 14px;
+	height: 14px;
+	background-image: url(../images/sprite.passport.png);
+	background-position: -342px -29px;
+}
+.passport-page .err-tip em{
+	position: absolute;
+	font-style: normal;
+	color: red;
+}
+.login-page .captcha-sms-input {
+	float: left;
+	width: 128px;
+	margin-right: 10px;
+}
+.passport-page .btn {
+	display: block;
+	height: 46px;
+	background-color: #ff1901;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 20px;
+	line-height: 46px;
+	cursor: pointer;
+}
+.login-page .login-ul .change-captcha-sms {
+	float: left;
+	width: 128px;
+	font-size: 10px;
+	letter-spacing: 0;
+}
+.passport-page .btn {
+	display: block;
+	width: 100%;
+	height: 46px;
+	background-color: #ff1901;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 20px;
+	line-height: 46px;
+	cursor: pointer;
+}
+.login-page .other-opts {
+	color: #b9b9b9;
+	font-size: 14px;
+}
+.login-page .remember-me {
+	cursor: pointer;
+	color: #b9b9b9;
+}
+.login-page .other-opts .iconfont {
+	font-size: 14px;
+}
+.login-page .forget-password {
+	color: #b9b9b9;
+}
+.login-page .other-opts .fast-reg {
+	color: #ff1901;
+}
+.login-page .third-party-login {
+	display: table;
+}
+.login-page .third-party-login a {
+	display: table-cell;
+	width: 45px;
+	background-size: 100% 100%;
+}
+.login-page .third-party-login .weixin {
+	background-image: url(../images/sprite.passport.png);
+	background-position: -32px -81px;
+}
+.login-page .third-party-login .qq {
+	background-image: url(../images/sprite.passport.png);
+	background-position: -64px -81px;
+}
+.login-page .third-party-login .weibo {
+	background-image: url(../images/sprite.passport.png);
+	background-position: -96px -81px;
+}
+.login-page .third-party-login .alipay {
+	background-image: url(../images/sprite.passport.png);
+	background-position: 0 -81px;
+}
+.login-page .third-party-login .douban {
+	background-image: url(../images/sprite.passport.png);
+	background-position: -160px -81px;
+}
+.login-page .third-party-login .renren {
+	background-image: url(../images/sprite.passport.png);
+	background-position: -128px -81px;
+}
+.login-page .third-party-login .icon {
+	display: block;
+	margin: 0 auto;
+	width: 30px;
+	height: 30px;
+}

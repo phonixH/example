@@ -1,0 +1,253 @@
+/*passport-cover*/
+.passport-page {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1150px;
+}
+.passport-cover{
+	float: left;
+	margin: 107px 0;
+	width: 575px;
+} 
+.cover-content{
+	padding: 50px 0;
+	width: 100%;
+	height: 318px;
+	border-right: 1px solid #dfdfdf; 
+}
+.cover-img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 252px;
+	height: 190px; 
+}
+/*content*/
+.content{
+	float: left;
+	margin-top: 107px;
+	padding-left: 85px;
+}
+ .register-page{
+	color: #b9b9b9;
+}
+.register-page li{
+	position: relative;
+	margin-bottom: 25px;
+	width: 270px;
+}
+.register-page li .region{
+	padding: 4px 0;
+	width: 132px;
+	height: 30px;
+	border-color: #c1c1c1;
+	color: #9a9a9a;
+	font-size: 16px;
+	font-family: 黑体;
+	outline: none;
+}
+.country-code{
+	display: block;
+	float: left;
+	width: 58px;
+	height: 43px;
+	border: 1px solid #dbdbdb;
+	border-right: 0;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 16px;
+	line-height: 43px;
+}
+.register-page li .input.phone-num {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 209px;
+}
+.input{
+	padding: 0;
+	height: 43px;
+	width: 268px;
+	border:1px solid #dbdbdb;
+	color: #9a9a9a;
+	text-indent: 10px;
+	font-size: 16px;
+	line-height: 43px;
+}
+.register-page ul .w330{
+	width: 330px;
+}
+.captcha{
+	float: left;
+	width: 160px;
+}
+.captcha-show{
+	display: inline-block;
+	margin: 4px 0 0 10px;
+	width: 90px;
+	height: 37px;
+	line-height: 37px;
+	outline: none;
+	border: 0;
+	vertical-align: middle;
+	text-align: center;
+}
+.captcha-change{
+	float: left;
+	margin-left: 10px;
+	height: 43px;
+	line-height: 43px;
+	cursor: pointer;
+}
+.link{
+	color: #ff1901;
+	text-decoration: underline;
+}
+.register-page li .msg-captcha{
+	float: left;
+	width: 160px;
+}
+.register-page li .send-captcha{
+	background: #555;
+}
+.passport-page .disable{
+	cursor: default;
+}
+.register-page li .btn{
+	padding: 0;
+	height: 45px;
+	border:none;
+	color: #fff;
+	text-align: center;
+	font-family: 黑体;
+	line-height: 45px;
+	cursor: pointer;
+}
+.register-page li .send-captcha{
+	position: absolute;
+	top: 0;
+	right:0;
+	width: 100px;
+	text-indent: 0;
+	letter-spacing: 0;
+	font-size: 12px;
+}
+.register-page .msg-tip{
+	position: absolute;
+	top: 17px;
+	left: 285px;
+	white-space: nowrap;
+}
+.register-page li .hide{
+	display: none;
+}
+.register-page li .pwd-intensity-container{
+	overflow: hidden;
+	margin-top: 5px;
+	width: 270px;
+	height: auto;
+	text-align: right;
+	padding-top: 5px;
+}
+.register-page li .pwd-intensity-container .pwd-intensity{
+	padding: 1px 10px;
+	height: 15px;
+	background-color: #e8e8e8;
+	text-align: center;
+	font-size: 12px;
+	color: #b9b9b9;
+}
+.passport-page .pwd-tips {
+	position: absolute;
+	top: -10px;
+	left: 285px;
+	padding-top: 7px;
+	width: 160px !important;
+	height: 72px;
+	background-image: url(../images/sprite.passport.png);
+	background-position: 0 0;
+	font-size: 12px;
+}
+.pwd-tips {
+	z-index: 1000;
+	background-color: #fff;
+}
+.passport-page .pwd-tips > div {
+	position: relative;
+	margin-left: 15px;
+	padding-left: 15px;
+	height: 22px;
+	color: #b9b9b9;
+	font-size: 12px;
+	line-height: 22px;
+}
+.passport-page .pwd-tips > div i {
+	position: absolute;
+	top: 50%;
+	left: -2px;
+	margin: -7px 0 0;
+	width: 14px;
+	height: 14px;
+	background-image: url(../images/sprite.passport.png);
+	background-position: -310px -29px;
+}
+.register-page li.items-container, .register-page li.quick-login-container {
+	text-align: right;
+	white-space: nowrap;
+	font-size: 13px;
+	width: 310px;
+	
+}
+.register-page li span{
+	color: #b9b9b9;
+	display: inline-block;
+}
+
+.register-page li input, .register-page li select {
+	outline: none;
+}
+.register-page li .register-btn {
+	width: 270px;
+	background: #ff1901;
+	font-weight: 700;
+	font-size: 20px;
+}
+.register-page li .register-btn.disable {
+	background: #555;
+}
+.passport-page .btn.disable {
+	background-color: #555;
+	cursor: default;
+}
+.register-page li.quick-login-container {
+	width: 270px;
+	color: #b9b9b9;
+}
+.register-page .err-tip {
+	position: absolute;
+	z-index: 1000;
+	padding: 0 10px;
+	height: 30px;
+	border: 1px solid #ffbdbe;
+	background-color: #ffebeb;
+	color: red;
+	line-height: 30px;
+	top: 210px;
+	left: 815.5px;
+	display: none;
+}
+.register-page .err-tip span{
+	color: red;
+	font-size: 14px;
+}
+.register-page .err-tip b {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	display: block;
+	width: 17px;
+	height: 9px;
+	background-image: url(../images/sprite.passport.png);
+	background-position: -358px -29px;
+}

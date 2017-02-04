@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>用户登陆</title>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/signin.css">
+<link rel="stylesheet" href="../css/public.css">
+<link rel="stylesheet" href="../css/simple_header.css">
+<link rel="stylesheet" href="../font/iconfont.css">
+<link href="../images/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+<script src="../js/jquery-1.12.4.js"></script>
+<script src="../js/public.js"></script>
+<script src="../js/signin.js"></script>
+<script src="../js/cookies.js"></script>
+</head>
+<body>
+<!-- simple-header -->
+<div class="simple-header clearfix">
+	<div class="header-inner">
+		<h1 class="logo">
+			<a href="#">
+				<img src="../images/logo_e.png" alt="">
+			</a>
+		</h1>
+		<ul class="class-tool">
+			<li>
+				<span>Hi~</span>
+				<a href="signin.html">[请登录]</a>
+				<a href="reg.html">[免费注册]</a>
+			</li>
+			<li class="tool-options">
+				<span>
+					<a href="">MY有货</a>
+				</span>
+				<i class="options-icon down iconfont">&#xe60b;</i>
+				<i class="options-icon up iconfont">&#xe60a;</i>
+				<div class="tool-select" style="display: none;">
+					<a href="">我的收藏</a>
+					<a href="">优惠券</a>
+				</div>
+			</li>
+			<li>
+				<a href="">订单中心</a>
+			</li>
+			<li>
+				<a href="">帮助中心</a>
+			</li>
+			<li>
+				<i class="tell-icon iconfont">&#xe60c;</i>
+				<span>400-8899-646</span>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- passport-page -->
+<div class="passport-page login-page yoho-page clearfix">
+	<div class="passport-cover">
+		<div class="cover-content">
+			<img src="../images/0242501a7b649b621b8ae87b11c4377f20.jpg" alt="" class="cover-img">
+		</div>
+	</div>
+
+	<div class="content">
+		<ul class="login-ul">
+			<li class="clearfix">
+				<h2 class="title left">会员登录</h2>
+				<span id="country-code" class="country-code right">
+        			<i>中国 +86</i>
+        			<i class="iconfont">&#xe601;</i>
+        			<ul id="country-list" class="country-list">
+                            <li data-cc="+61">澳大利亚 +61</li>
+                            <li data-cc="+82">韩国 +82</li>
+                            <li data-cc="+1">加拿大 +1</li>
+                            <li data-cc="+60">马来西亚 +60</li>
+                            <li data-cc="+1">美国 +1</li>
+                            <li data-cc="+81">日本 +81</li>
+                            <li data-cc="+65">新加坡 +65</li>
+                            <li data-cc="+44">英国 +44</li>
+                            <li data-cc="+86" selected="">中国 +86</li>
+                            <li data-cc="+853">中国澳门 +853</li>
+                            <li data-cc="+886">中国台湾 +886</li>
+                            <li data-cc="+852">中国香港 +852</li>
+                    </ul>
+        		</span>
+			</li>
+			<li>
+        		<div class="switch">
+        			<div class="left selected" data-type="PasswordLogin">普通登录</div>
+        			<div class="right" data-type="SMSLogin">手机验证码登录</div>
+        		</div>
+        	</li>
+        	<li class="password-login">
+        		<input id="account1" class="account input" placeholder="邮箱/手机号码" type="text">
+        		<span class="err-tip hide">
+        			<i></i>
+        			<em>请输入账户名</em>
+        		</span>
+        	</li>
+        	<li class="password-login">
+        		<input id="password" class="password input" placeholder="密码" maxlength="20" type="text">
+        		<span class="err-tip hide">
+        			<i></i>
+        			<em>请输入密码</em>
+        		</span>
+                <span id="caps-lock" class="caps-lock hide">大写状态开启</span>
+        	</li>
+        	<li class="sms-login hide">
+        		<input id="account2" class="account input" placeholder="手机号码" type="text">
+        		<span class="err-tip hide">
+        			<i></i>
+        			<em>请输入手机号码</em>
+        		</span>
+        	</li>
+        	<li class="sms-login hide clearfix">
+        		<input id="captcha-sms" class="input captcha-sms-input" placeholder="短信验证码" maxlength="4" type="text">
+        		<div class="change-captcha-sms btn">获取短信验证码</div>
+        		<span class="err-tip hide">
+        			<i></i>
+        			<em>请输入短信验证码</em>
+        		</span>
+        	</li>
+        	<li>
+        		<span id="login-btn" class="login-btn btn">登录</span>
+        	</li>
+        	<li class="other-opts">
+	    		<span class="remember-me">
+	    			<i class="iconfont">&#xe60e;</i>
+	    			记住登录状态
+	    		</span>
+	    		<span class="right">
+	    			<a href="" class="forget-password">忘记密码?</a>
+	    			|
+	    			<a href="reg.html" class="fast-reg">快速注册</a>
+	    		</span>
+	    	</li>
+			<li class="third-party-login">
+                <a href="//www.yohobuy.com/passport/autosign/wechat">
+                    <span class="icon weixin"></span>
+                </a>
+                <a href="//www.yohobuy.com/passport/autosign/qq">
+                    <span class="icon qq"></span>
+                </a>
+                <a href="//www.yohobuy.com/passport/autosign/sina">
+                    <span class="icon weibo"></span>
+                </a>
+                <a href="//www.yohobuy.com/passport/autosign/alipay">
+                    <span class="icon alipay"></span>
+                </a>
+                <a href="//www.yohobuy.com/passport/autosign/douban">
+                    <span class="icon douban"></span>
+                </a>
+                <a href="//www.yohobuy.com/passport/autosign/renren">
+                    <span class="icon renren"></span>
+                </a>
+            </li>
+		</ul>
+	</div>
+</div>
+
+		<!-- yoho-footer -->
+	<div class="yoho-footer clearfix">
+		<!-- footerbottom -->
+		<div class="footerbottom">
+            <div class="promise">
+                <div class="center-content clearfix">
+                    <div class="left">
+                        <span class="iconfont rgbf">&#xe604;</span>
+                        <span class="red">100%</span>
+                        <span class="rgbf">品牌正品</span>
+                    </div>
+                    <div class="left">
+                        <span class="iconfont rgbf">&#xe608;</span>
+                        <span class="red">7天</span>
+                        <span class="rgbf">无理由退换货</span>
+                    </div>
+                    <div class="left">
+                        <span class="iconfont rgbf">&#xe607;</span>
+                        <a href="http://chat8.live800.com/live800/chatClient/chatbox.jsp?companyID=620092&amp;configID=149091&amp;jid=8732423409" target="_blank">
+                            <span class="red">便捷</span>
+                            <span class="rgbf">在线客服</span>
+                        </a>
+                    </div>
+                    <div class="right subscribe footer-right">
+                        <input id="subscriber-box" class="rgb6 top" name="subscriberBox" value="订阅我们的邮件">
+                        <a id="subscriber-btn" href="javascript:void(0);" class="iconfont rgbf">&#xe603;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-help">
+                <div class="center-content clearfix">
+                    <div class="left">
+                        <ul class="clearfix">
+                            <li class="left">
+                                <p>
+                                    <span>新手指南</span>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=81#help_b00reg" target="_blank">注册登录</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=83" target="_blank">选购商品</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=103" target="_blank">订单支付</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=85" target="_blank">收货退款</a>
+                                </p>
+                            </li>
+                            <li class="left">
+                                <p>
+                                    <span>会员中心</span>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=87" target="_blank">有货币</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=91" target="_blank">会员制度</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=89" target="_blank">账户管理</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=93" target="_blank">密码管理</a>
+                                </p>
+                            </li>
+                            <li class="left">
+                                <p>
+                                    <span>购物指南</span>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=95" target="_blank">全球购专区</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=97" target="_blank">尺码选择</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=99" target="_blank">发票</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=101" target="_blank">商品咨询</a>
+                                </p>
+                            </li>
+                            <li class="left">
+                                <p>
+                                    <span>支付方式</span>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=105" target="_blank">在线支付</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=107" target="_blank">货到付款</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=109" target="_blank">优惠券</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=111" target="_blank">有货币支付</a>
+                                </p>
+                            </li>
+                            <li class="left">
+                                <p>
+                                    <span>配送方式</span>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=113" target="_blank">配送时间</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=115" target="_blank">配送范围</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=119" target="_blank">顺丰速运</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=117" target="_blank">商品验收与签收</a>
+                                </p>
+                            </li>
+                            <li class="left">
+                                <p>
+                                    <span>售后服务</span>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=121" target="_blank">退换货政策</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=123" target="_blank">退换货流程</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=125" target="_blank">退款方式与时效</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=127" target="_blank">投诉与建议</a>
+                                </p>
+                            </li>
+                            <li class="left">
+                                <p>
+                                    <span>APP常见问题</span>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=133" target="_blank">IPhone版</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=135" target="_blank">Android版</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=137" target="_blank">wap版</a>
+                                </p>
+                                <p>
+                                    <a href="//www.yohobuy.com/help/?category_id=139" target="_blank">IPAD版</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-link">
+                <div class="center-content clearfix">
+                    <div class="left right-flag">
+                        <a class="govicon" href="http://odr.jsdsgsxt.gov.cn:8081/mbm/entweb/elec/certView?siteId=f2b6e3b8d18241afb8dd6cadf7f15406" target="_blank" rel="nofollow">
+                            <div class="govimg"></div>
+                        </a>
+                        <a href="https://ss.knet.cn/verifyseal.dll?sn=e14021832010046477dka7000000&amp;ct=df&amp;a=1&amp;pa=0.5902942178957805" target="_blank" rel="nofollow">
+                            <img src="../images/credit-flag3.png">
+                        </a>
+                        <a href="http://www.isc.org.cn/" target="_blank" rel="nofollow">
+                            <img src="../images/isc2.png">
+                        </a>
+                    </div>
+                    <div class="left about-us">
+                        <p>
+                            <a href="//www.yohobuy.com">返回首页</a>
+                            <span>|</span>
+                            <a href="//www.yohobuy.com">YOHO!BUY 有货</a>
+                            <span>|</span>
+                            <a href="//www.yohobuy.com/newpower.html">新力传媒</a>
+                            <span>|</span>
+                            <a href="//www.yohobuy.com/contact.html">联系我们</a>
+                            <span>|</span>
+                            <a href="//shop.yohobuy.com/settled">商家入驻</a>
+                            <span>|</span>
+                            <a href="//www.yohobuy.com/privacy.html">隐私条款</a>
+                            <span>|</span>
+                            <a href="//www.yohobuy.com/link.html">友情链接</a>
+                        </p>
+                        <p>
+                            CopyRight © 2007-2016 南京新与力文化传播有限公司
+                            <a class="rbg6" href="http://www.miibeian.gov.cn/" target="_blank">苏ICP备09011225号</a>
+                            NewPower Co. 版权所有 经营许可证编号：苏B2-20120395
+                        </p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+		
+		<!-- return-top -->
+        <div class="return-top">
+        	<span class="iconfont">&#xe600;</span>
+        </div>
+	</div>
+
+</body>
+</html>

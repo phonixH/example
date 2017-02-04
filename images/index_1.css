@@ -1,0 +1,110 @@
+html #hm_t_undefined .hm-t-map-card { position: fixed; right: 52px; bottom: 44px; border: 1px solid rgb(199, 199, 199); z-index: 99998; white-space: normal; font-size: 14px; line-height: 17px; overflow: hidden; color: rgb(255, 255, 255); background: rgb(64, 64, 64) none repeat scroll 0% 0%; }
+html #hm_t_undefined .hm-t-map-card-title { border-bottom: 2px solid rgb(240, 240, 240); height: 23px; padding-top: 6px; color: rgb(0, 0, 0); font-weight: bold; text-align: center; background: transparent -moz-linear-gradient(center top , rgb(241, 241, 241) 0%, rgb(230, 230, 230) 100%) repeat scroll 0% 0%; }
+html #hm_t_undefined .hm-t-map-card-info { font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); }
+html #hm_t_undefined .hm-t-map-card-info table { font-size: 12px; }
+html #hm_t_undefined .hm-t-map-card-info table td { width: 65px; }
+html #hm_t_undefined .hm-t-map-card-info .hm-t-map-card-info-table-content { white-space: normal; word-break: break-all; word-wrap: break-word; width: auto; }
+html #hm_t_undefined .hm-t-map-card-info .hm-t-map-card-info-table-index { width: 43px; padding-left: 5px; }
+html #hm_t_undefined .hm-t-map-card-map-link { height: 30px; font-size: 12px; color: rgb(0, 130, 203); background: transparent -moz-linear-gradient(center top , rgb(249, 249, 249) 0%, rgb(236, 236, 236) 100%) repeat scroll 0% 0%; text-align: center; }
+:root .hm-t-map-card-map-link { background-color: rgb(249, 249, 249); }
+html #hm_t_undefined .hm-t-map-card-map-link img { margin: 5px 5px 0px 0px; vertical-align: bottom; }
+html #hm_t_undefined .hm-t-map-card-bug-map-link { cursor: pointer; }
+html #hm_t_undefined .hm-t-unfold-map-card { position: fixed; right: 2px; z-index: 99998; display: block; width: 40px; text-align: center; white-space: normal; text-decoration: none; color: rgb(255, 255, 255); background: rgb(102, 102, 102) none repeat scroll 0% 0%; cursor: pointer; font-size: 14px; line-height: 17px; padding-top: 3px; height: 37px ! important; }
+html #hm_t_undefined.hm-t-container .hm-t-map-card-side-arrow { right: 45px; }
+html #hm_t_undefined .hm-t-map-card, html #hm_t_undefined .hm-t-map-card-side-arrow, html #hm_t_undefined .hm-t-unfold-map-card {  }
+/* ::::: http://cas.jsdsgsxt.gov.cn:8082/pco/css/login.css ::::: */
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, menu, input, button, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+body { line-height: 1.5; }
+input, label, select, option, textarea, button, fieldset, legend { font-size: 1em; }
+table { border-collapse: collapse; border-spacing: 0px; }
+ul, ol, menu { list-style: outside none none; }
+fieldset, img { border: medium none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus { outline: 0px none; }
+:link, :visited, ins { text-decoration: none; }
+body { font-size: 12px; }
+#ln_wrap { width: 100%; height: 100%; margin: 0px auto; background: rgb(245, 244, 242) none repeat scroll 0% 0%; }
+.user_login_table { width: 410px; height: 240px; padding-left: 20px; padding-top: 15px; }
+.login_name { color: rgb(51, 51, 51); font-size: 120%; margin: 0px; padding: 4px 0px 2px; white-space: nowrap; width: 60px; }
+.input_box { border: 1px solid rgb(191, 191, 191); height: 15px; padding: 5px; width: 235px; }
+.username, .password, .verification_code { clear: both; height: 50px; }
+input.input_box:hover, input.input_box02:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(239, 161, 0); outline: 1px solid rgb(247, 227, 139); }
+input.input_box, input.input_box02 {  }
+/* ::::: http://cas.jsdsgsxt.gov.cn:8082/pco/css/css.css ::::: */
+
+body, div, ol, dl, dt, dd, ul, li, table, tr, td, h1, h2, h3, h4, h5, h6, p, form, button, img, strong, em { padding: 0px; margin: 0px; border: 0px none; font-style: normal; }
+li, dd, dt { list-style-type: none; }
+ol, ul, dl { list-style: outside none none; }
+img { vertical-align: top; }
+a { color: rgb(36, 73, 107); text-decoration: none; outline: 0px none; }
+a:hover, a.hover { color: rgb(255, 186, 0); }
+input:-moz-placeholder { color: rgb(204, 204, 204); }
+button::-moz-focus-inner, input::-moz-focus-inner { margin: 0px; padding: 0px; }
+input, select, option, button, textarea { font-size: 100%; vertical-align: middle; outline: 0px none; border-radius: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+.clearfix::after { visibility: hidden; display: block; font-size: 0px; content: " "; clear: both; height: 0px; }
+.clearfix { clear: both; }
+body { font-family: "微软雅黑",Arial; font-size: 14px; background: rgb(222, 233, 185) url('body_bg.jpg') repeat-x scroll center 34px; }
+#top { height: 215px; }
+.warp { width: 1000px; margin: 0px auto; }
+.warp_top { text-align: right; height: 34px; }
+.warp_top a { display: inline-block; text-indent: 15px; background: transparent url('icon.png') no-repeat scroll 0% 0%; font-size: 12px; padding-right: 10px; line-height: 18px; margin: 8px 0px 8px 10px; }
+.warp_top a.setHome { background-position: 0px 3px; }
+.warp_top a.collection { background-position: -87px 4px; }
+#nav { width: 1000px; margin: 1px auto 0px; height: 40px; }
+#nav ul { width: 1040px; margin: 0px auto; }
+#nav ul li { float: left; width: 80px; line-height: 40px; }
+#nav ul li a { color: rgb(255, 255, 255); display: block; text-align: center; }
+#top { height: 239px; }
+.header { height: 34px; width: 100%; background: rgb(143, 197, 110) none repeat scroll 0% 0%; }
+.warp_top { width: 1000px; margin: 0px auto; }
+.warp_top .setHome, .warp_top .collection, .warp_top .share { float: left; width: 18px; height: 18px; overflow: hidden; background: transparent url('top_bg_ico.png') no-repeat scroll 0% 0%; border-radius: 50%; padding: 0px; border: 2px solid rgb(181, 209, 157); margin: 6px 0px 8px 15px; transition: all 0.3s ease 0s; }
+.warp_top a.setHome { background-position: 0px 0px; }
+.warp_top a.collection { background-position: 0px -36px; }
+.warp_top a.share { background-position: 0px -72px; }
+.warp_top a.setHome:hover { background-position: 0px -18px; }
+.warp_top a.collection:hover { background-position: 0px -54px; }
+.warp_top a.share:hover { background-position: 0px -90px; }
+.warp_top .top_logo { margin: 2px 0px 0px; float: left; background: transparent none repeat scroll 0% 0%; border-right: 1px solid rgb(170, 221, 85); }
+#nav { background: rgb(240, 161, 59) none repeat scroll 0% 0%; border-bottom: 4px solid rgb(128, 176, 98); margin-top: 0px; overflow: hidden; }
+#nav ul li a.hover { color: rgb(255, 255, 255); background: rgb(143, 197, 110) url('nav_ico.png') no-repeat scroll 0% 0%; }
+#nav ul li { width: 12.2%; position: relative; top: 0px; transition: all 0.5s ease 0s; }
+#nav ul li a { width: 100%; background: transparent url('nav_ico.png') no-repeat scroll 0% 0%; }
+#nav ul li:hover { top: -40px; }
+#nav .index_li a, #nav .index_li a.hover { background-position: 15px -2px; }
+#nav .li_3 a, #nav .li_3 a.hover { background-position: 5px -45px; }
+#nav .gonggongfuwu_li a, #nav .gonggongfuwu_li a.hover { background-position: 5px -135px; }
+#nav .li_10 a, #nav .li_10 a.hover { background-position: 5px -180px; }
+.clearfix .w470 .new_tab li.hover, .clearfix .w470 .new_tab li.hover::after { background: rgb(240, 161, 59) none repeat scroll 0% 0%; }
+#nav { position: relative; }
+.top-bg { background: transparent url('bg_top_05.jpg') no-repeat scroll center top; width: 1000px; height: 100%; margin: 0px auto; position: relative; }
+#nav ul li a { text-indent: 40px; text-align: left; }
+#nav .li_5 a, #nav .li_5 a.hover { background-position: 3px -322px; }
+#nav .li_8 a, #nav .li_8 a.hover { background-position: 3px -368px; }
+#nav .index_li a, #nav .index_li a.hover { background-position: 12px -2px; text-indent: 50px; }
+.nice-select::after { content: ""; border-bottom: 20px solid rgb(65, 121, 192); border-left: 20px solid transparent; position: absolute; right: 0px; bottom: 0px; }
+.copyright { height: 126px; background-color: rgb(221, 221, 221); border-top: 1px solid rgb(187, 187, 187); margin-top: 20px; padding-top: 40px; }
+.copyright p { font-size: 12px; line-height: 24px; color: rgb(102, 102, 102); }
+.copyright img { float: left; margin-right: 20px; margin-top: -20px; margin-left: 150px; }
+/* ::::: http://cas.jsdsgsxt.gov.cn:8082/pco/css/loginCSS.css ::::: */
+
+body { margin: 0px; }
+.lod { width: 520px; height: 340px; margin: 25px auto; border-radius: 5px; background: rgb(233, 233, 233) none repeat scroll 0% 0%; font-family: "微软雅黑"; }
+.lod_box { width: 500px; height: 320px; margin: 10px; background: rgb(253, 253, 253) none repeat scroll 0% 0%; border-radius: 5px; display: inline-block; box-shadow: 0px 0px 5px rgb(217, 217, 217); padding: 0px; }
+.lod_tit { font-size: 30px; font-weight: bold; color: rgb(83, 161, 86); border-bottom: 1px solid rgb(233, 233, 233); height: 62px; line-height: 62px; margin: 0px auto 15px; text-align: center; width: 95%; }
+.lod_font { font-size: 18px; color: rgb(84, 84, 84); }
+.lod_input { width: 210px; height: 32px; border: 1px solid rgb(83, 161, 86); outline: medium none; padding: 0px 0px 0px 5px; }
+.lod_input:hover { border: 1px solid rgb(240, 161, 60); }
+.font_yell { font-size: 14px; color: rgb(240, 161, 60); text-decoration: none; margin: 0px 0px -5px 5px; }
+.font_yell:hover { text-decoration: underline; }
+.no_mar { margin: 0px; }
+.lod_butt { background: rgb(240, 161, 60) none repeat scroll 0% 0%; width: 100px; height: 36px; border-radius: 5px; border: medium none; font-size: 18px; font-weight: bold; color: rgb(196, 57, 14); outline: medium none; cursor: pointer; padding: 0px; }
+.lod_butt:hover { opacity: 0.8; }
+.lod_bottom2 { background: rgb(198, 198, 198) none repeat scroll 0% 0%; width: 180px; color: rgb(83, 161, 86); margin-left: 10px; }
+.lod_lis { font-size: 14px; color: rgb(102, 102, 102); }
+/* ::::: http://cas.jsdsgsxt.gov.cn:8082/pco/css/ui-lightness/jquery-ui-1.8.4.custom.css ::::: */
+
+.ui-helper-clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }

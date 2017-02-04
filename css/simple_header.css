@@ -1,0 +1,63 @@
+/*simple-header*/
+.simple-header{
+	height: 66px;
+	margin: 0 0 20px;
+	border-bottom: 2px solid #222; 
+}
+.header-inner{
+	width: 990px;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	line-height: 66px;
+	font-size: 0;
+}
+.logo img{
+	vertical-align: middle;
+	display: inline-block;
+}
+.class-tool{
+	float: right;
+	line-height: 66px;
+	font-size: 0;
+}
+.class-tool li{
+	display: inline-block;
+	padding: 0 10px;
+	line-height: 28px;
+	vertical-align: middle;
+	font-size: 12px;
+}
+.tool-options{
+	position: relative;
+}
+.tool-options .options-icon{
+	font-size: 12px;
+}
+.tool-options:hover {
+    background-color: #eaeceb;
+}
+.tool-options:hover .up{
+	display: inline-block;
+}
+.tool-options:hover .down{
+	display: none;
+}
+.tool-options .up{
+	display: none;
+}
+.tool-options .tool-select {
+	position: absolute;
+	width: 74px;
+	left: 0;
+	background: #eaeceb;
+	z-index: 9;
+	display: none;
+}
+.tool-options .tool-select a {
+	display: block;
+	padding: 0 0 0 10px;
+	border-top: 1px solid #ddd;
+}
