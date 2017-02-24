@@ -1,9 +1,19 @@
 $(function(){
 
-
-	$('main-container-wrapper img').lazyload({
-		effect: 'fadeIn'
-	});
+	// 判断cookies
+	if(document.cookie.length > 1){
+		var cookie = getCookies().account.split('');
+		cookie.splice(3,4,'****');
+		var userName = cookie.join('');
+		$('.loginbox').hide();
+		$('.userName').text(userName);
+	}else{
+		$('.loginbox').show();
+		$('.userName').hide();
+	}
+	$('.logOut').on('click',function(){
+		window.location.href = '../index.html';
+	})
 
 	banner();
 	brandMove();
