@@ -10,7 +10,7 @@ $(function(){
 		$('.userName').text(userName);
 	}else{
 		$('.loginbox').show();
-		$('.userName').hide();
+		$('.userbox').hide();
 	}
 	$('.logOut').on('click',function(){
 		window.location.href = '../index.html';

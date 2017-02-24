@@ -7,9 +7,10 @@ $(function(){
 		var userName = cookie.join('');
 		$('.loginbox').hide();
 		$('.userName').text(userName);
+		$('.userbox').show();
 	}else{
 		$('.loginbox').show();
-		$('.userName').hide();
+		$('.userbox').hide();
 	}
 	$('.logOut').on('click',function(){
 		window.location.href = '../index.html';
