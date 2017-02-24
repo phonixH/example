@@ -1,7 +1,7 @@
 $(function(){
 
 	// 判断cookies
-	if(document.cookie.length > 1){
+	if(document.cookie.length > 0){
 		var cookie = getCookies().account.split('');
 		cookie.splice(3,4,'****');
 		var userName = cookie.join('');
